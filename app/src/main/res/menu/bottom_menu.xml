@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/ic_baseline_widgets_24"
+        android:title="Assosiy" />
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="Tanlanganlar" />
+    <item
+        android:id="@+id/nav_apps"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:onClick="makeDialog"
+        android:title="Boshka Ilovalar" />
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:onClick="makeDialog"
+        android:title="Baholash" />
+    <group>
+
+        <item android:title="Aloqa" />
+        <item
+            android:id="@+id/view_telegram"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:onClick="makeDialog"
+            android:title="Telegram" />
+        <item
+            android:id="@+id/telegramm_biew"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:onClick="makeDialog"
+            android:title="Koinot Tilismi" />
+        <item
+            android:id="@+id/share_la"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:onClick="makeDialog"
+            android:title="Ulanish" />
+
+    </group>
+</menu>
